@@ -14,7 +14,7 @@ It provides a way to **create graphical interfaces** using simple **Batch Script
 
 **Features**
 * Extremelly small size ( Full size of **124kb on disk** )
-* Simulated routing navigation
+* Simulated Router Navigation
 * Callbacks between JS and BATCH files
 * Full style customization made easy with CSS
 
