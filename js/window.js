@@ -12,10 +12,14 @@ var offsetY = 0
 window.resizeTo (width, height);
 window.moveTo(((screen.width - width) / 2) - offsetX, ((screen.height - height) / 2) - offsetY);
 
-// Function used to send a reply from JS to BATCH ( A reply is saved and the window is restarted to return to the batch loop )
+// Function used to send a reply from JS to BATCH ( A message is sent to 'gui_shell.bat', please handle your batch code there )
+function shell(command){
+    // get current path
+    var location = window.location.pathname;
+    var escaped = location.split("\\")
+    var directoryPath = location.replace(escaped[escaped.length-1], "")
 
-function send(reply){
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
-    fso.GetStandardStream(1).WriteLine(reply);
-    window.close();
+    // send a message to 'gui_shell'
+    var objShell = new ActiveXObject("WScript.shell");
+    objShell.run(directoryPath + 'gui_shell.bat ' + command);
 }

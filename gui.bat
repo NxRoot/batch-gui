@@ -1,13 +1,7 @@
-<!-- :: Batch section
+<!-- :: Batch section (Dont do anyhting here, use 'gui_shell.bat' to write batch code)
 @echo off
-setlocal
-
-:listen
-set "reply="
 for /F "delims=" %%a in ('mshta.exe "%~F0"') do set "reply=%%a"
 if "%reply%" == "" ( goto :EOF )
-ECHO Message from JS = %reply%
-goto :listen
 -->
 
 <html>
@@ -38,14 +32,14 @@ goto :listen
    <div id="pages">
       
       <div name="Page 1">
-         <div class="button" onclick="send(1);">Enable Service</div>
-         <div class="button" onclick="send(2);">Launch Program</div>
+         <div class="button" onclick="shell('ENABLE');">Enable Service</div>
+         <div class="button" onclick="shell('LAUNCH');">Launch Program</div>
          <div class="button fixed right" onclick="setPage(2);">Settings</div>
       </div>
 
       <div name="Page 2">
-         <div class="button" onclick="send(3);">Edit Config File</div>
-         <div class="button" onclick="send(4);">Reset Settings</div>
+         <div class="button" onclick="shell('CONFIG');">Edit Config File</div>
+         <div class="button" onclick="shell('RESET');">Reset Settings</div>
          <div class="backButton button" onclick="setPage(1);">Go Back</div>
       </div>
 
