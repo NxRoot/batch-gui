@@ -48,9 +48,24 @@ Example:
       </div>
     </div>
 
+**Send Messages to Batch**
+* Callbacks are handled by JS dynamically.
+* Use `shell` function to **send a message** from JS to Batch. </br>
+
+Example: 
+
+    <div id="pages">
+      <div>
+        Page 1
+        <div class="button" onclick="shell("ENABLE");">Enable Service</div>
+        <div class="button" onclick="shell("LAUNCH");">Launch Program</div>
+      </div>
+    </div>
+
 # Limitations
 * Since this is not running on any browser, **web functions** and **CSS events** are `not available`.</br> 
 * **JSON** functions are also `not available` you can use [JSON2.js](https://github.com/douglascrockford/JSON-js) to get them.
 
 # TODO
 * Implement JSON object parsing to send in reply.
+* Implement listener to receive batch output after message is sent.
