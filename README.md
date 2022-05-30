@@ -22,7 +22,7 @@ It provides a way to **create graphical interfaces** using simple **Batch Script
 
 **Add or Remove pages**
 * Pages are handled by JS dynamically.
-* So to add or remove a page just **add a new element** inside the container with `id="pages"`.</br>
+* So to add or remove a page just **add or remove elements** from the container with `id="pages"`.</br>
 
 Example: 
 
