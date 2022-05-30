@@ -43,7 +43,8 @@ Example:
     </div>
 
 # Limitations
-* You can only use **pure javascript**, since this is not running on any browser, **web functions** and css events **are not available**</br> (**JSON** functions are also **not available** you can use [json2 natives](https://github.com/douglascrockford/JSON-js) to get them)
+* Since this is not running on any browser, **web functions** and **css events** are `not available`.</br> 
+* **JSON** functions are also `not available` you can use [json2 natives](https://github.com/douglascrockford/JSON-js) to get them
 
 # TODO
 * Implement JSON object parsing to send in reply
