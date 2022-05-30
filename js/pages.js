@@ -30,10 +30,7 @@ function setPage(p){
     var prev = pages[page]
 
     if(curr){
-        switch(p) {
-            case 1: prev.style.display = "none"; curr.style.display = "block"; break;
-            case 2: prev.style.display = "none"; curr.style.display = "block"; break;
-        }
+        prev.style.display = "none"; curr.style.display = "block";
         page = p
     }
 }
