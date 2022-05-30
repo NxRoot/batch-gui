@@ -14,15 +14,32 @@ It provides a way to **create graphical interfaces** using simple **Batch Script
 
 # How To Use
 
-**Add or Remove Pages**
+**Add or Remove pages**
 * Pages are handled by JS dynamically
-* So to add or remove a page just add a new page inside `div` container with `id="pages"`</br>
+* So to add or remove a page just **add a new element** inside the container with `id="pages"`</br>
 
 Example: 
 
     <div id="pages">
       <div> Page 1 </div>
       <div> Page 2 </div>
+    </div>
+    
+**Navigation between pages**
+* Page events are handled by JS dynamically
+* Use `setPage` function to navigate between pages </br>
+
+Example: 
+
+    <div id="pages">
+      <div>
+        Page 1
+        <div class="button" onclick="setPage(2);">Go to page 2</div>
+      </div>
+      <div>
+        Page 2
+        <div class="button" onclick="setPage(1);">Go to page 1</div>
+      </div>
     </div>
 
 # Limitations
