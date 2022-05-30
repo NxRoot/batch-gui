@@ -86,7 +86,7 @@ Output:
     Press any key to continue . . .
     
 # How To Run
-* Execute `gui.bat` or just call it from another process
+* Execute `gui.bat` or just call it from another process.
 
 
 # Limitations
