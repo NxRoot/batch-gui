@@ -1,4 +1,4 @@
-<!-- :: Batch section ( Don't do anyhting here, use 'gui_shell.bat' to write batch code )
+<!-- :: Batch - Init Window, Handle Close ( Don't do anyhting here, use 'gui_shell.bat' to write batch code )
 @echo off
 for /F "delims=" %%a in ('mshta.exe "%~F0"') do set "reply=%%a"
 if "%reply%" == "" ( goto :EOF )
