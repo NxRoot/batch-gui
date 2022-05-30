@@ -24,7 +24,7 @@ for(var i = 0; i < items.length; i++){
 // Set first page to visible
 if(pages[page]) pages[page].style.display = "block" 
 
-// Function used to set visibility, called from .bat file
+// Function used to set visibility, called from 'gui.bat' file
 function setPage(p){
     var curr = pages[p]
     var prev = pages[page]
