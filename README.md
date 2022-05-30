@@ -84,6 +84,10 @@ Output:
 
     LAUNCH
     Press any key to continue . . .
+    
+# How To Run
+* Execute `gui.bat` or just call it from another process
+
 
 # Limitations
 * Since this is not running on any browser, **web functions** and **CSS events** are `not available`.</br> 
