@@ -31,6 +31,8 @@ Example:
       <div> Page 2 </div>
     </div>
     
+ <hr></hr>
+ 
 **Navigation between pages**
 * Page events are handled by JS dynamically.
 * Use `setPage` function to navigate between pages. </br>
@@ -47,6 +49,8 @@ Example:
         <div class="button" onclick="setPage(1);">Go to page 1</div>
       </div>
     </div>
+    
+<hr></hr>
 
 **Send Messages to Batch**
 * Callbacks are handled by JS dynamically.
@@ -62,6 +66,7 @@ Example:
       </div>
     </div>
     
+<hr></hr>
 
 **Receive Messages from JS**
 * Messages from JS are handled in `gui_shell.bat`.
@@ -74,6 +79,7 @@ Example:
     echo %action%
 
     pause
+    
 
 # Limitations
 * Since this is not running on any browser, **web functions** and **CSS events** are `not available`.</br> 
