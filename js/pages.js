@@ -30,7 +30,8 @@ function setPage(p){
     var prev = pages[page]
 
     if(curr){
-        prev.style.display = "none"; curr.style.display = "block";
+        prev.style.display = "none"; 
+        curr.style.display = "block";
         page = p
     }
 }
