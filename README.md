@@ -80,6 +80,10 @@ Example:
 
     pause
     
+Result:
+
+    LAUNCH
+    Press any key to continue . . .
 
 # Limitations
 * Since this is not running on any browser, **web functions** and **CSS events** are `not available`.</br> 
