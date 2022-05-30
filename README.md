@@ -10,7 +10,13 @@ It provides a way to **create graphical interfaces** using simple **Batch Script
 
 **Runtime Process**
 * Batch Script creates an [HTML Application](https://en.wikipedia.org/wiki/HTML_Application) using [HTA](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program).
-* Javascript **send responses** directly to **Batch**.
+* Javascript **send responses** directly to **Batch Script**.
+
+**Features**
+* Extremelly small size ( Full size of **124kb on disk** )
+* Simulated routing navigation
+* Callbacks between JS and BATCH files
+* Full style customization made easy with CSS
 
 # How To Use
 
@@ -43,7 +49,7 @@ Example:
     </div>
 
 # Limitations
-* Since this is not running on any browser, **web functions** and **css events** are `not available`.</br> 
+* Since this is not running on any browser, **web functions** and **CSS events** are `not available`.</br> 
 * **JSON** functions are also `not available` you can use [JSON2.js](https://github.com/douglascrockford/JSON-js) to get them.
 
 # TODO
