@@ -61,6 +61,19 @@ Example:
         <div class="button" onclick="shell("LAUNCH");">Launch Program</div>
       </div>
     </div>
+    
+
+**Receive Messages from JS**
+* Callbacks from JS are handled in `gui_shell.bat` file.
+* You will **receive the arguments** from `shell` function directly. </br>
+
+Example: 
+
+    @ECHO OFF
+    set action=%1
+    echo %action%
+
+    pause
 
 # Limitations
 * Since this is not running on any browser, **web functions** and **CSS events** are `not available`.</br> 
