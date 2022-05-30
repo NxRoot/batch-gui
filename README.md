@@ -1,7 +1,7 @@
-# Batch GUI - Boilerplate ([Demo](https://streamable.com/josckw))
+# Batch GUI - Boilerplate ([Demo](https://streamable.com/2l81mc))
 Simple Batch Graphical Interface ( Batch &amp; Javascript )
 
-![video](https://i.ibb.co/MfvkZbv/ezgif-com-gif-maker-3.gif)
+![gif](https://i.ibb.co/MfvkZbv/ezgif-com-gif-maker-3.gif)
 
 # How Does It Work
 This Project was made in [Batch  Script](https://en.wikipedia.org/wiki/Batch_file) and [Javascript](https://en.wikipedia.org/wiki/JavaScript).
