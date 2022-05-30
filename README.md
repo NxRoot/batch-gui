@@ -80,7 +80,7 @@ Example:
 
     pause
     
-Result:
+Output:
 
     LAUNCH
     Press any key to continue . . .
