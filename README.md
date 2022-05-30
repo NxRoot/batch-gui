@@ -65,7 +65,7 @@ Example:
 
 **Receive Messages from JS**
 * Callbacks from JS are handled in `gui_shell.bat` file.
-* You will **receive the arguments** from `shell` function directly. </br>
+* You will **receive the arguments** from the previous `shell` function directly. </br>
 
 Example: 
 
