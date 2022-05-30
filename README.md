@@ -27,8 +27,6 @@ Example:
 
 # Limitations
 * You can only use **pure javascript**, since this is not running on any browser, **web functions** and css events **are not available**
-* After a response is sent from JS to BAT the window is restarted
 
 # TODO
-* Workaround window restarting limitation (**PRIORITY**)
-* Implement object parsing to send in reply
+* Implement JSON object parsing to send in reply
