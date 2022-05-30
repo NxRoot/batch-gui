@@ -1,4 +1,4 @@
-<!-- :: Batch section (Dont do anyhting here, use 'gui_shell.bat' to write batch code)
+<!-- :: Batch section ( Don't do anyhting here, use 'gui_shell.bat' to write batch code )
 @echo off
 for /F "delims=" %%a in ('mshta.exe "%~F0"') do set "reply=%%a"
 if "%reply%" == "" ( goto :EOF )
@@ -12,7 +12,7 @@ if "%reply%" == "" ( goto :EOF )
       NAME="myApp"
       BORDER="thin"
       BORDERSTYLE="normal"
-      ICON="favicon.ico"
+      ICON="fav.ico"
       WINDOWSTATE="normal"
       INNERBORDER="no"
       MAXIMIZEBUTTON="no"
@@ -24,7 +24,7 @@ if "%reply%" == "" ( goto :EOF )
       SELECTION="no"
       VERSION="1.0" 
    >
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="css/style.css">
    <script language="JavaScript" src="js/window.js"></script>
 </head>
 
