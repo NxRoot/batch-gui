@@ -1,4 +1,4 @@
-# Batch GUI - Boilerplate (<a href="https://streamable.com/josckw" target="_blank">Demo</a>)
+# Batch GUI - Boilerplate ([Demo](https://streamable.com/josckw))
 Simple Batch Graphical Interface ( Batch &amp; Javascript )
 
 ![video](https://i.ibb.co/MfvkZbv/ezgif-com-gif-maker-3.gif)
