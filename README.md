@@ -21,7 +21,7 @@ It provides a way to **create graphical interfaces** using simple **Batch Script
 # How To Use
 
 **Add or Remove pages**
-* Pages are handled by JS dynamically.
+* Pages are handled in `gui.bat`.
 * So to add or remove a page just **add or remove elements** from the container with `id="pages"`.</br>
 
 Example: 
