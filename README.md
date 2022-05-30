@@ -10,4 +10,7 @@ It provides a way to **create graphical interfaces** using simple **Batch Script
 
 **Runtime Process**
 * Batch Script creates an [HTML Application](https://en.wikipedia.org/wiki/HTML_Application) using [HTA](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
-* Javascript can **send messages** directly to **Batch**
+* Javascript **send responses** directly to **Batch**
+
+# Limitations
+* You can only use **pure javascript**, since this is not running on any browser, **web functions** and css events **are not available**
