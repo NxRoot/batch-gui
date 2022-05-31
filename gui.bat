@@ -7,7 +7,8 @@ if "%reply%" == "" ( goto :EOF )
 <html>
 <head>
    <title>Batch GUI - Launcher</title>
-
+   <script language="JavaScript" src="js/window.js"></script>
+   
    <HTA:APPLICATION 
       NAME="myApp"
       BORDER="thin"
@@ -25,7 +26,6 @@ if "%reply%" == "" ( goto :EOF )
       VERSION="1.0" 
    >
    <link rel="stylesheet" href="css/style.css">
-   <script language="JavaScript" src="js/window.js"></script>
 </head>
 
 <body >
