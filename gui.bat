@@ -32,14 +32,14 @@ if "%reply%" == "" ( goto :EOF )
    <div id="pages">
       
       <div name="Page 1">
-         <div class="button" onclick="shell('ENABLE');">Enable Service</div>
-         <div class="button" onclick="shell('LAUNCH');">Launch Program</div>
+         <div class="button" onclick="shell('ENABLE', 1);">Enable Service</div>
+         <div class="button" onclick="shell('LAUNCH', 1);">Launch Program</div>
          <div class="button fixed right" onclick="setPage(2);">Settings</div>
       </div>
 
       <div name="Page 2">
-         <div class="button" onclick="shell('CONFIG');">Edit Config File</div>
-         <div class="button" onclick="shell('RESET');">Reset Settings</div>
+         <div class="button" onclick="shell('CONFIG', 1);">Edit Config File</div>
+         <div class="button" onclick="shell('RESET', 1);">Reset Settings</div>
          <div class="backButton button" onclick="setPage(1);">Go Back</div>
       </div>
 

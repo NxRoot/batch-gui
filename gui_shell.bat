@@ -1,5 +1,6 @@
 @ECHO OFF
-set action=%1
-echo %action%
+SET action=%1
+ECHO Action = %action%
 
-pause
+TIMEOUT /T 3
+EXIT 0
