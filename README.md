@@ -95,4 +95,3 @@ Output:
 
 # TODO
 * Implement JSON object parsing to send in reply.
-* Implement listener to receive batch output after message is sent.
