@@ -25,12 +25,12 @@ It provides a way to **create graphical interfaces** using simple **Batch Script
 * To add or remove a page just **add or remove elements** from the container with `id="pages"`.</br>
 
 Example: 
-
-    <div id="pages">
-      <div> Page 1 </div>
-      <div> Page 2 </div>
-    </div>
-    
+```js
+<div id="pages">
+  <div> Page 1 </div>
+  <div> Page 2 </div>
+</div>
+```
  <hr></hr>
  
 **Navigation between pages**
@@ -38,18 +38,18 @@ Example:
 * Use `setPage` function to navigate between pages. </br>
 
 Example: 
-
-    <div id="pages">
-      <div>
-        Page 1
-        <div class="button" onclick="setPage(2);">Go to page 2</div>
-      </div>
-      <div>
-        Page 2
-        <div class="button" onclick="setPage(1);">Go to page 1</div>
-      </div>
-    </div>
-    
+```js
+<div id="pages">
+  <div>
+    Page 1
+    <div class="button" onclick="setPage(2);">Go to page 2</div>
+  </div>
+  <div>
+    Page 2
+    <div class="button" onclick="setPage(1);">Go to page 1</div>
+  </div>
+</div>
+```
 <hr></hr>
 
 **Send Messages to Batch**
@@ -57,15 +57,15 @@ Example:
 * Use `shell` function to **send a message** from JS to Batch. </br>
 
 Example: 
-
-    <div id="pages">
-      <div>
-        Page 1
-        <div class="button" onclick="shell("ENABLE");">Enable Service</div>
-        <div class="button" onclick="shell("LAUNCH");">Launch Program</div>
-      </div>
-    </div>
-    
+```js
+<div id="pages">
+  <div>
+    Page 1
+    <div class="button" onclick="shell("ENABLE");">Enable Service</div>
+    <div class="button" onclick="shell("LAUNCH");">Launch Program</div>
+  </div>
+</div>
+```  
 <hr></hr>
 
 **Receive Messages from JS**
@@ -73,13 +73,14 @@ Example:
 * You will **receive the arguments** from the previous `shell` function directly. </br>
 
 Example: 
+```batch
+@ECHO OFF
+set action=%1
+echo %action%
 
-    @ECHO OFF
-    set action=%1
-    echo %action%
+pause
+```
 
-    pause
-    
 Output:
 
     LAUNCH
