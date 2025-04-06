@@ -1,0 +1,6 @@
+@ECHO OFF
+SET msg=%1
+ECHO %msg%
+
+TIMEOUT /T 3
+EXIT 0
